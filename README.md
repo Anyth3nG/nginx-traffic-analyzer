@@ -35,7 +35,6 @@ python3 parse.py IP_OF_THE_NGINX
 81.5.53.52 - 4 requests - 2 errors - clean  
   
 --- CVEs found for nginx/1.24.0 ---  
-  
 CVE-2023-44487  
 The HTTP/2 protocol allows a denial of service...  
   
