@@ -28,17 +28,17 @@ python3 parse.py IP_OF_THE_NGINX
 
 ## Example Output
 
-=== NGINX TRAFFIC REPORT ===
-
---- IP SUMMARY ---
-101.47.8.187 - 46 requests - 46 errors - SUSPICIOUS
-81.5.53.52 - 4 requests - 2 errors - clean
-
---- CVEs found for nginx/1.24.0 ---
-
-CVE-2023-44487
-The HTTP/2 protocol allows a denial of service...
-
+=== NGINX TRAFFIC REPORT ===  
+  
+--- IP SUMMARY ---  
+101.47.8.187 - 46 requests - 46 errors - SUSPICIOUS  
+81.5.53.52 - 4 requests - 2 errors - clean  
+  
+--- CVEs found for nginx/1.24.0 ---  
+  
+CVE-2023-44487  
+The HTTP/2 protocol allows a denial of service...  
+  
 ## Requirements
 requests
 
